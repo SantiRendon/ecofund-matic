@@ -1,7 +1,11 @@
-<!-- App.svelte -->
 <script>
 	import { Accordion, AccordionItem } from 'carbon-components-svelte';
+	import { Airplane } from 'carbon-pictograms-svelte';
+	import { Add } from 'carbon-icons-svelte';
 </script>
+
+<Airplane />
+<Add />
 
 <Accordion>
 	<AccordionItem title="Section 1" open>Content 1</AccordionItem>
